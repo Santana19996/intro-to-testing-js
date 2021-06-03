@@ -40,3 +40,9 @@ describe('sayHello', function() {
         expect(sayHello()).toBe("Hello, World!");
     });
 });
+describe ('isFive', function() {
+    it('should be a defined function', function () {
+        expect(typeof isFive).toBe('function');
+    });
+});
+

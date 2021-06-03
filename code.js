@@ -21,4 +21,7 @@ function sayHello(name) {
     return "";
 }
 
+function isFive() {
+    return 'ZERO TWO'
+}
 
